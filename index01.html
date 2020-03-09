@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        console.log('Hello World');
+        var nome = "Patate";
+        nome = 25;
+        console.log(nome);
+
+
+        var familia = ['Maria', 'João', 'Anna'];
+        var funcionarios = [{
+            nome: 'Maria Silva',
+            idade: 39,
+            nascimento: '04 de Abril 1980'
+        }, {
+            nome: 'João dos Santos',
+            idade: 25,
+            nascimento: '18 de Maio 2001'
+        }]
+        console.log('Funcionário:' + funcionarios[1].nome + ' tem ' + funcionarios[1].idade + ' anos.');
+
+        // utilizar return quando não se quer mostrar o resultado na tela
+        function rectangle(base, altura) {
+            var area = base * altura;
+            return area;
+        }
+
+        var base = 6;
+        var altura = 8;
+        var area = rectangle(base, altura);
+        console.log('A area do retângulo é: ' + rectangle(base, altura));
+        console.log('A area do retângulo é: ' + area);
+    </script>
+</body>
+
+
+</html>
